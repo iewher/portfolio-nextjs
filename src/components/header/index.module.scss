@@ -1,0 +1,22 @@
+@use "styles/colors";
+
+.Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  height: 60px;
+}
+
+.Links {
+  display: flex;
+  gap: 30px;
+}
+
+.Links > a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.Sharp {
+  color: colors.$primary;
+}

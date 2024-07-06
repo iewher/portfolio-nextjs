@@ -1,0 +1,48 @@
+@use "styles/colors";
+
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Fira Code";
+  color: colors.$white;
+  background-color: colors.$background;
+}
+
+html {
+  padding: 0px 170px;
+}
+
+.Media {
+  position: fixed;
+  top: 0;
+  left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.Media-Line {
+  border: 1px solid colors.$gray;
+  height: 190px;
+  max-width: 1px;
+}
+
+.Media-Links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.Media-Links > a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 32px;
+  width: 32px;
+  color: colors.$gray;
+}
