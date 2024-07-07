@@ -13,5 +13,10 @@
 }
 
 html {
-  padding: 0px 170px;
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  max-width: 1200px;
 }
