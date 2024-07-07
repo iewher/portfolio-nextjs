@@ -1,0 +1,35 @@
+@use "styles/colors";
+
+.Container {
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+}
+
+.Text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 600px;
+}
+
+.Contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  border: 1px solid colors.$white;
+  padding: 16px;
+}
+
+.Contacts > a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  color: colors.$gray;
+  width: fit-content;
+}
+
+.Contacts > a:hover {
+  color: colors.$white;
+}
