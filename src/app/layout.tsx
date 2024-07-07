@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
-import { FaGithub } from "react-icons/fa";
 
 import Header from "@/components/header";
+import Media from "@/components/media";
 import "./globals.scss";
 
 export const metadata: Metadata = {
@@ -20,14 +20,7 @@ export default function RootLayout({
         <Header />
         {children}
 
-        <div className="Media">
-          <div className="Media-Line"></div>
-          <div className="Media-Links">
-            <a href="https://github.com/iewher" target="_about">
-              <FaGithub />
-            </a>
-          </div>
-        </div>
+        <Media />
       </body>
     </html>
   );

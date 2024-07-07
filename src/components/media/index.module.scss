@@ -1,0 +1,38 @@
+@use "styles/colors";
+
+.Media {
+  position: fixed;
+  top: 0;
+  left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.Line {
+  border: 1px solid colors.$gray;
+  height: 190px;
+  max-width: 1px;
+}
+
+.Links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.Links > a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 32px;
+  width: 32px;
+  color: colors.$gray;
+
+  .svg {
+    height: 100%;
+    width: 100%;
+  }
+}
