@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 
 import Header from "@/components/header";
+import Footer from "@/components/footer";
 import Media from "@/components/media";
 import "./globals.scss";
 
@@ -19,7 +20,7 @@ export default function RootLayout({
       <body>
         <Header />
         {children}
-
+        <Footer />
         <Media />
       </body>
     </html>
