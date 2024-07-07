@@ -1,5 +1,8 @@
 import styles from "./index.module.scss";
 
+/**
+ * Баннер в начале страницы.
+ */
 function Banner() {
   return (
     <div className={styles.Banner}>

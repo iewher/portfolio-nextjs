@@ -1,6 +1,9 @@
 import { FaGithub, FaTelegram } from "react-icons/fa";
 import styles from "./index.module.scss";
 
+/**
+ * Список media контента.
+ */
 export default function Media() {
   return (
     <div className={styles.Media}>

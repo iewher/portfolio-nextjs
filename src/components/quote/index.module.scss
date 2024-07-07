@@ -1,0 +1,25 @@
+@use "styles/colors";
+
+.Quote {
+  height: 95px;
+  width: fit-content;
+  border: 1px solid colors.$white;
+  padding: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.Text {
+  font-size: 32px;
+  color: colors.$white;
+}
+
+.MiniQuote {
+  position: absolute;
+  width: 40px;
+  height: 30px;
+  border: 1px solid colors.$white;
+  font-size: 32px;
+}
