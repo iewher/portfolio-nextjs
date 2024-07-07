@@ -1,0 +1,17 @@
+import PageLayout from "../page-layout";
+import styles from "./index.module.scss";
+
+export default function AboutMe() {
+  return (
+    <PageLayout title="about-me">
+      <div className={styles.Container}>
+        <div className={styles.Text}>
+          Hello, I'm Georgiy! <br /> I'm a self-taught front-end developer from
+          Perm, Russia. I like to work on website development using various
+          frameworks. I love console utilities, similar to browsers.
+        </div>
+        <div className={styles.Image}>{/** FIXME: добавить фотографию */}</div>
+      </div>
+    </PageLayout>
+  );
+}
