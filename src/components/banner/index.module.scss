@@ -1,0 +1,36 @@
+@use "styles/colors";
+
+.Banner {
+  width: 100%;
+  min-height: 420px;
+  display: flex;
+}
+
+.Text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+  max-width: 450px;
+}
+
+.Title {
+  font-size: 32px;
+}
+
+.Title > span {
+  color: colors.$primary;
+  font-size: 32px;
+}
+
+.Description {
+  color: colors.$gray;
+}
+
+.ContactButton {
+  width: 150px;
+  height: 40px;
+  border: 1px solid colors.$primary;
+  background-color: inherit;
+  cursor: pointer;
+}
