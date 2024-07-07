@@ -1,0 +1,41 @@
+@use "styles/colors";
+
+.Container {
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+}
+
+.Columns {
+  display: flex;
+  gap: 20px;
+}
+
+.Column {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.Card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid colors.$white;
+  min-width: 180px;
+  min-height: 100px;
+}
+
+.Card > .Title {
+  border-bottom: 1px solid colors.$white;
+  padding: 8px;
+}
+
+.Card > .List {
+  color: colors.$gray;
+  padding: 8px;
+
+  p {
+    width: fit-content;
+    color: colors.$gray;
+  }
+}

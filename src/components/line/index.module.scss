@@ -1,0 +1,7 @@
+@use "styles/colors";
+
+.Line {
+  width: 400px;
+  border: 1px solid colors.$primary;
+  margin-left: 20px;
+}

@@ -1,0 +1,20 @@
+@use "styles/colors";
+
+.PageLayout {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: 100%;
+  min-height: 400px;
+}
+
+.Title {
+  display: flex;
+  align-items: center;
+  font-size: 32px;
+}
+
+.Title > span {
+  font-size: 32px;
+  color: colors.$primary;
+}
