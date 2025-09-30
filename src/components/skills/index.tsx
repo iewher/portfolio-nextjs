@@ -48,8 +48,8 @@ function Card({ title, list }: CardProps) {
     <div className={styles.Card}>
       <div className={styles.Title}>{title}</div>
       <div className={styles.List}>
-        {list.map((i) => (
-          <p>{i}</p>
+        {list.map((i, index) => (
+          <p key={index}>{i}</p>
         ))}
       </div>
     </div>
