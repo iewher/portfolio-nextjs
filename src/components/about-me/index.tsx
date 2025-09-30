@@ -6,8 +6,8 @@ export default function AboutMe() {
     <PageLayout title="about-me" id="about-me">
       <div className={styles.Container}>
         <div className={styles.Text}>
-          Hello, I'm Georgiy! <br />
-          <br /> I'm a self-taught front-end developer from Perm, Russia. I like
+          Hello, Im Georgiy! <br />
+          <br /> Im a self-taught front-end developer from Perm, Russia. I like
           to work on website development using various frameworks.
           <br />
           <br /> I love console utilities, similar to browsers.
