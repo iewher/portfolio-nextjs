@@ -25,11 +25,17 @@ export default function Skills() {
           </div>
           <div className={styles.Column}>
             <Card title="Databases" list={["PostgresQL"]} />
-            <Card title="Other" list={["HTML", "SCSS", "REST"]} />
+            <Card
+              title="Other"
+              list={["HTML", "SCSS", "Rest API", "Apollo Graphql"]}
+            />
           </div>
           <div className={styles.Column}>
             <Card title="Tools" list={["Linux", "VSCode", "Git"]} />
-            <Card title="Frameworks" list={["React", "NextJS", "Gin"]} />
+            <Card
+              title="Frameworks"
+              list={["React", "NextJS", "Gin", "React Native"]}
+            />
           </div>
         </div>
       </div>
