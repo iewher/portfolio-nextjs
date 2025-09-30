@@ -1,5 +1,3 @@
-@use "styles/colors";
-
 .Container {
   display: flex;
   justify-content: space-between;
@@ -17,7 +15,7 @@
   display: flex;
   flex-direction: column;
   gap: 15px;
-  border: 1px solid colors.$white;
+  border: 1px solid white;
   padding: 16px;
 }
 
@@ -26,10 +24,10 @@
   align-items: center;
   gap: 10px;
   text-decoration: none;
-  color: colors.$gray;
+  color: var(--gray);
   width: fit-content;
 }
 
 .Contacts > a:hover {
-  color: colors.$white;
+  color: white;
 }

@@ -1,5 +1,3 @@
-@use "styles/colors";
-
 .Banner {
   width: 100%;
   min-height: 420px;
@@ -19,18 +17,18 @@
 }
 
 .Title > span {
-  color: colors.$primary;
+  color: var(--primary-color);
   font-size: 32px;
 }
 
 .Description {
-  color: colors.$gray;
+  color: var(--gray);
 }
 
 .ContactButton {
   width: 150px;
   height: 40px;
-  border: 1px solid colors.$primary;
+  border: 1px solid var(--primary-color);
   background-color: inherit;
   cursor: pointer;
 }

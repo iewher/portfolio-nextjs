@@ -1,5 +1,3 @@
-@use "styles/colors";
-
 .Container {
   display: flex;
   justify-content: space-between;
@@ -20,22 +18,22 @@
 .Card {
   display: flex;
   flex-direction: column;
-  border: 1px solid colors.$white;
+  border: 1px solid white;
   min-width: 180px;
   min-height: 100px;
 }
 
 .Card > .Title {
-  border-bottom: 1px solid colors.$white;
+  border-bottom: 1px solid white;
   padding: 8px;
 }
 
 .Card > .List {
-  color: colors.$gray;
+  color: var(--gray);
   padding: 8px;
 
   p {
     width: fit-content;
-    color: colors.$gray;
+    color: var(--gray);
   }
 }

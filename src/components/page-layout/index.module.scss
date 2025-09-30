@@ -1,5 +1,3 @@
-@use "styles/colors";
-
 .PageLayout {
   display: flex;
   flex-direction: column;
@@ -16,5 +14,5 @@
 
 .Title > span {
   font-size: 32px;
-  color: colors.$primary;
+  color: var(--primary-color);
 }
