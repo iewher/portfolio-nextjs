@@ -14,7 +14,7 @@ export default function Contacts() {
         </div>
         <div className={styles.Contacts}>
           <div className={styles.Title}>Message me here</div>
-          <a href="https://t.me/iewher" about="_blank">
+          <a href="https://t.me/tsHATER" about="_blank">
             <FaTelegram />
             Telegram
           </a>
