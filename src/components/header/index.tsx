@@ -5,8 +5,7 @@ export default function Header() {
     <div className={styles.Header}>
       <div className={styles.Logo}>Georgy</div>
       <div className={styles.Links}>
-        <Link url="home" />
-        <Link url="works" />
+        <Link url="skills" />
         <Link url="about-me" />
         <Link url="contacts" />
       </div>
@@ -16,7 +15,7 @@ export default function Header() {
 
 function Link({ url }: { url: string }) {
   return (
-    <a href={`/${url}`}>
+    <a href={`#${url}`}>
       <span className={styles.Sharp}>#</span>
       {url}
     </a>

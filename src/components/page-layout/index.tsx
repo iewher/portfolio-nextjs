@@ -1,14 +1,14 @@
 import Line from "../line";
 import styles from "./index.module.scss";
 
-interface PageLayoutProps {
+type PageLayoutProps = {
   title: string;
   children: React.ReactNode;
-}
+} & React.ComponentPropsWithoutRef<"div">;
 
-function PageLayout({ title, children }: PageLayoutProps) {
+function PageLayout({ title, children, ...otherProps }: PageLayoutProps) {
   return (
-    <div className={styles.PageLayout}>
+    <div className={styles.PageLayout} {...otherProps}>
       <div className={styles.Title}>
         <span>#</span>
         {title} <Line />

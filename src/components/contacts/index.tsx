@@ -5,7 +5,7 @@ import styles from "./index.module.scss";
 
 export default function Contacts() {
   return (
-    <PageLayout title="contacts">
+    <PageLayout title="contacts" id="contacts">
       <div className={styles.Container}>
         <div className={styles.Text}>
           Hello, I'm Georgiy! <br /> I'm a self-taught front-end developer from

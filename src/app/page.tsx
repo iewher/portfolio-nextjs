@@ -1,7 +1,7 @@
 import Banner from "@/components/banner";
 import styles from "./page.module.scss";
 import Skills from "@/components/skills";
-import AboutMe from "@/components/aboutme";
+import AboutMe from "@/components/about-me";
 import Contacts from "@/components/contacts";
 
 /**

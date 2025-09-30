@@ -3,7 +3,7 @@ import styles from "./index.module.scss";
 
 export default function AboutMe() {
   return (
-    <PageLayout title="about-me">
+    <PageLayout title="about-me" id="about-me">
       <div className={styles.Container}>
         <div className={styles.Text}>
           Hello, I'm Georgiy! <br />

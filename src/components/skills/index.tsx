@@ -11,7 +11,7 @@ interface CardProps {
 
 export default function Skills() {
   return (
-    <PageLayout title="Skills">
+    <PageLayout title="skills" id="skills">
       <div className={styles.Container}>
         <div className={styles.Img}>
           <Image src={squares} alt="Squares" />
